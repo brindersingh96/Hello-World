@@ -5,5 +5,5 @@ RUN apt-get update
 RUN apt-get install -y
 RUN npm install -y
 COPY . .
-EXPOSE 8080
+EXPOSE 8081
 CMD ["node","server.js"]
